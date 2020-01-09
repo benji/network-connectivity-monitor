@@ -6,6 +6,7 @@ import plotly.express as px
 df = read_csv('data.csv', header=0, parse_dates=True, squeeze=True)
 # print(df.head())
 
-fig = px.scatter(x=df.datetime, y=df.dns)
-fig.add_scatter(x=df.datetime, y=df.ping)
+#fig = px.scatter(x=df.datetime, y=df.dns)
+#fig.add_scatter(x=df.datetime, y=df.ping)
+fig = px.scatter(x=df.timestamp, y=df.ping)
 fig.show()

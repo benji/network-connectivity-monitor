@@ -15,11 +15,11 @@ collects DNS + PING data and graph the results
 
 Run in superuser mode with: 
 
-    $ sudo /usr/local/apps/vds/jdk/bin/java -jar build/libs/network-connectivity-monitor.jar 
+    $ sudo /usr/local/apps/jdk/bin/java -jar build/libs/network-connectivity-monitor.jar 
     66,19
     21,21
     22,16
 
 Redirect to a file to save the data:
 
-    sudo /usr/local/apps/vds/jdk/bin/java -jar build/libs/network-connectivity-monitor.jar > data.csv
+    sudo /usr/local/apps/vds/jdk/bin/java -jar build/libs/network-connectivity-monitor.jar data.csv

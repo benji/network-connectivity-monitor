@@ -29,3 +29,8 @@ bin
 .gradle
 build
 data.csv
+
+.idea
+gradlew
+gradlew.bat
+gradle/
